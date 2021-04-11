@@ -32,8 +32,7 @@ class _ConfettiState extends State<Confetti> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: SafeArea(
+    return SafeArea(
         child: Scaffold(
           body: Container(
             margin: EdgeInsets.only(top: 50.0),
@@ -70,7 +69,6 @@ class _ConfettiState extends State<Confetti> {
             ),
           ),
         ),
-      ),
     );
   }
 }
